@@ -34,7 +34,7 @@ Converted["TextLabel"].Size = UDim2.new(0, 420, 0, 285)
 Converted["TextLabel"].Parent = Converted["Frame"]
 game:GetService("TweenService"):Create(Converted["Frame"], TweenInfo.new(1), {BackgroundTransparency = 0}):Play()
 game:GetService("TweenService"):Create(Converted["TextLabel"], TweenInfo.new(1), {TextTransparency = 0}):Play()
-repeat wait() until getgenv().thunderclient______loaded
+repeat wait() until getgenv().thunderclient______loaded_
 game:GetService("TweenService"):Create(Converted["Frame"], TweenInfo.new(1), {BackgroundTransparency = 1}):Play()
 game:GetService("TweenService"):Create(Converted["TextLabel"], TweenInfo.new(1), {TextTransparency = 1}):Play()
 wait(2)
