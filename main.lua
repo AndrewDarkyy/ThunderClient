@@ -1,8 +1,8 @@
 -- thunder client
 
-spawn(function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/AndrewDarkyy/ThunderClient/main/THUNDERCLIENT.lua", true))()
-end)
+coroutine.wrap(function()
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/dca3e69649ed196af0ac6577f743a0ae.lua"))()
+end)()
 
 local Converted = {
     ["ScreenGui"] = Instance.new("ScreenGui");
@@ -13,7 +13,6 @@ local Converted = {
 Converted["ScreenGui"].ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 Converted["ScreenGui"].Parent = game.CoreGui
 Converted["Frame"].BackgroundColor3 = Color3.fromRGB(30, 30, 30)
-Converted["Frame"].BorderColor3 = Color3.fromRGB()
 Converted["Frame"].BorderSizePixel = 0
 Converted["Frame"].BackgroundTransparency = 1
 Converted["Frame"].Position = UDim2.new(0.367591411, 0, 0.324189514, 0)
